@@ -1,5 +1,9 @@
 body{
 		background-color: LightGray;
+		font-family: 'Roboto', sans-serif;
+font-size: 16px;
+color: #838994;
+letter-spacing: 0.03em;
 	}
 
 	div{
@@ -18,8 +22,9 @@ border: 1px solid chocolate;
 		margin: 1em 0em 0.9em 0.95em;
 	}
 
-	.meet-karma{
+	.active{
 		color:rgb(76, 80, 88);
+		font-weight: 500;
 	}
 
 
@@ -34,6 +39,7 @@ border: 1px solid chocolate;
 
 
 	ul> li{
+		-webkit-font-smoothing: antialiased;
 		padding-left:1.63em;
 		color:rgb(131, 137, 148);
 		list-style-type:none;

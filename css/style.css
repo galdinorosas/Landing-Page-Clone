@@ -11,14 +11,16 @@ border: 1px solid chocolate;
 	}
 /* Beginning of the header and top menu bar section*/
 	nav{
-		margin: 0 auto;
-		width: 60em;
+		margin:0 auto;
+		width: 100%;
 		height:4.4em;
 		background-color:lightblue;
 	}
+	
+
 
 	.header-logo{
-		margin: 1em 0em 0.9em 0.95em;
+		margin: 1em 0em 0.9em 22em;
 	}
 
 	.active{
@@ -31,18 +33,17 @@ border: 1px solid chocolate;
 		color:rgb(32,32,32);
 	}
 
-
+	
 	ul{
 		letter-spacing: 0.01em;
 		text-align: right;
 		font-size:1em;
 		font-family:Roboto, sans-serif;
-		margin:-2.9em 0.95em 0 0;
+		margin:-2.95em 22.1em 0 0;
 		padding:0;
 	}
 
-
-	ul> li{
+ul> li{
 		cursor: pointer;
 		-webkit-font-smoothing: antialiased;
 		padding-left:1.63em;

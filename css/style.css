@@ -23,6 +23,7 @@ border: 1px solid chocolate;
 		height:4.4em;
 		background-color: white;
 		position: fixed;
+		z-index: 9999;
 	}
 
 	.container{
@@ -141,22 +142,34 @@ ul> li{
 	.features{
 		margin:0 auto;
 		background-color: white;
-		width: 60em;
+		width: 60%;
 		height: 40em;
 	}
 
 	h2{
+		margin: 2.8em 0 1.135em 0;
 		text-align: center;
 		font-size: 2.75rem;
 		font-weight: 300;
 		color: black;
+		letter-spacing: 0em;
 	}
 
 	.internet-feature,
 	.productivity-feature,
 	.pay-feature{
+		font-size:1.563rem;
+		font-weight: 400;
+		text-align: center;
 		display: inline-block;
 		height: 10em;
-		width: 20em;
+		width: 33.33%;
 		float: left;
+	}
+	
+	h4{
+		margin: 1.6em 0 0em 0;
+		font-weight: 400;
+		font-size: 1.563rem;
+		color: black;
 	}

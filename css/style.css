@@ -231,3 +231,27 @@ body{
 		letter-spacing: -.01em;
 		text-align: center;
 	}
+
+	.twitter-link{
+
+	color:#55acee;
+
+	}
+
+
+	.facebook-link > i{
+
+		color:#4C66A4;
+		margin-left:0.1em;
+	}
+	.instagram-link>i{
+
+		color:#3F729B;
+		margin-left:0.1em;
+	}
+
+	i{
+		margin-top:0.6em;
+
+	}
+

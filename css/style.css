@@ -44,7 +44,6 @@ body{
 
 	}
 		
-
 	/* Background Image Layout Declarations */
 	.background-image{
 	background-image: url("../Images/first-background-copy.jpg");
@@ -236,7 +235,6 @@ body{
 		padding:0;
 		height:40px;
 	}
-
 	
 	.footer-links>li{
 		/* Footer list item links layout declarations */
@@ -249,9 +247,7 @@ body{
 		list-style-type: none;
 		border:1px lightgrey solid;
 		cursor: pointer;
-
 	}
-
 
 	.copy{
 		/* Footer Copyright Message layout declarations */
@@ -261,7 +257,6 @@ body{
 		font-size: 0.9rem;
 		font-weight:300;
 		letter-spacing: -.01em;
-
 	}
 
 	/* Footer twitter link color change */
